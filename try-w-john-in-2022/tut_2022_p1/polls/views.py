@@ -1,5 +1,5 @@
-from django.template import loader
 from django.http import Http404, HttpResponse
+from django.shortcuts import render
 
 from .models import Question
 
